@@ -18,4 +18,84 @@
     <!-- Link to the JS file -->
     <script src="resources/js/script.js"></script>
 </body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS DevOps Institute</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>AWS DevOps Institute</h1>
+            <p>Empowering Cloud and DevOps Professionals</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>The AWS DevOps Institute is dedicated to providing top-notch training in cloud technologies and DevOps practices. Join us to master AWS, Docker, Kubernetes, Jenkins, and more.</p>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <ul>
+                <li>AWS Cloud Fundamentals</li>
+                <li>DevOps Essentials</li>
+                <li>Advanced Kubernetes</li>
+                <li>CI/CD with Jenkins</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="images/classroom1.jpg" alt="Classroom Session">
+                <img src="images/workshop.jpg" alt="Workshop">
+                <img src="images/certification.jpg" alt="Certification Ceremony">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 AWS DevOps Institute. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
+
